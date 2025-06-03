@@ -20,7 +20,7 @@ use Psr\Cache\InvalidArgumentException;
 class BartecService
 {
     const CACHE_LIFETIME = 3600; // 1 hour
-    const CACHE_NAMESPACE = 'lb-hounslow/bartec';
+    const CACHE_NAMESPACE = 'renfrewshire/bartec-client';
 
     const VERSION_ADAPTERS = [
         Version15Adapter::VERSION => Version15Adapter::class,

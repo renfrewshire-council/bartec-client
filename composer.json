@@ -1,13 +1,13 @@
 {
-  "name": "lb-hounslow/bartec",
+  "name": "renfrewshire/bartec-client",
   "description": "A library for the Bartec Collective API SOAP Web Service",
   "type": "library",
   "license": "proprietary",
   "require": {
-    "php": "^7.2",
+    "php": "^8.3",
     "ext-json": "*",
     "ext-soap": "*",
-    "psr/cache": "^1.0"
+    "psr/cache": "^3.0"
   },
   "autoload": {
     "psr-4": {

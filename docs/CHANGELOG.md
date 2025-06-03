@@ -58,7 +58,7 @@ Fixes:
 
 ### Release v1.4 `05/11/2021`
 
-- Changed namespace throughout to include the prefix [LBHounslow\Bartec](https://github.com/LBHounslow/bartec/blob/v1.4/composer.json#L15) to be consistent with other lb-hounslow packages.
+- Changed namespace throughout to include the prefix [LBHounslow\Bartec](https://github.com/LBHounslow/bartec/blob/v1.4/composer.json#L15) to be consistent with other renfrewshire packages.
 
 ### Release v1.3 `19/09/2021`
 
