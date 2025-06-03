@@ -1,13 +1,13 @@
 <?php
 
-namespace LBHounslow\Bartec\Client;
+namespace Renfrewshire\Bartec\Client;
 
-use LBHounslow\Bartec\Exception\SoapException;
-use LBHounslow\Bartec\Response\Response;
+use Renfrewshire\Bartec\Exception\SoapException;
+use Renfrewshire\Bartec\Response\Response;
 
 class Client
 {
-    public const WSDL_AUTH = 'https://collectiveapi.bartec-systems.com/Auth/Authenticate.asmx?WSDL';
+    public const WSDL_AUTH = 'https://collapi.bartec-systems.com/CollAuth/Authenticate.asmx?WSDL';
 
     /**
      * @var SoapClient

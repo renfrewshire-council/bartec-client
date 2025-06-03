@@ -1,6 +1,6 @@
 <?php
 
-namespace LBHounslow\Bartec\Response;
+namespace Renfrewshire\Bartec\Response;
 
 /**
  * SOAP Response

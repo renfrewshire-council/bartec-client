@@ -2,9 +2,9 @@
 
 namespace Tests\Unit\Transformer\ReportMissedBin;
 
-use LBHounslow\Bartec\Enum\BartecServiceEnum;
-use LBHounslow\Bartec\Exception\TransformationException;
-use LBHounslow\Bartec\Transformer\ReportMissedBin\FeatureTypeNameToExtendedDataFieldTransformer;
+use Renfrewshire\Bartec\Enum\BartecServiceEnum;
+use Renfrewshire\Bartec\Exception\TransformationException;
+use Renfrewshire\Bartec\Transformer\ReportMissedBin\FeatureTypeNameToExtendedDataFieldTransformer;
 use Tests\Unit\BartecTestCase;
 
 class FeatureTypeNameToExtendedDataFieldTransformerTest extends BartecTestCase

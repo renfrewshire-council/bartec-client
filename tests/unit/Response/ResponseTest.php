@@ -2,8 +2,8 @@
 
 namespace Tests\Unit\Response;
 
-use LBHounslow\Bartec\Response\Response;
-use LBHounslow\Bartec\Response\SoapResponse;
+use Renfrewshire\Bartec\Response\Response;
+use Renfrewshire\Bartec\Response\SoapResponse;
 use Tests\Unit\BartecTestCase;
 
 class ResponseTest extends BartecTestCase

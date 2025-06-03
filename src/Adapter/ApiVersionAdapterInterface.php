@@ -1,10 +1,10 @@
 <?php
 
-namespace LBHounslow\Bartec\Adapter;
+namespace Renfrewshire\Bartec\Adapter;
 
-use LBHounslow\Bartec\Client\Client as BartecClient;
-use LBHounslow\Bartec\Exception\SoapException;
-use LBHounslow\Bartec\Response\Response;
+use Renfrewshire\Bartec\Client\Client as BartecClient;
+use Renfrewshire\Bartec\Exception\SoapException;
+use Renfrewshire\Bartec\Response\Response;
 
 interface ApiVersionAdapterInterface
 {

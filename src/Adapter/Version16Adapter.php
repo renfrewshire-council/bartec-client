@@ -1,13 +1,13 @@
 <?php
 
-namespace LBHounslow\Bartec\Adapter;
+namespace Renfrewshire\Bartec\Adapter;
 
-use LBHounslow\Bartec\Enum\BartecServiceEnum;
+use Renfrewshire\Bartec\Enum\BartecServiceEnum;
 
 class Version16Adapter extends AbstractApiVersionAdapter
 {
     const VERSION = 'v16';
-    const WSDL_COLLECTIVE_API = 'https://collectiveapi.bartec-systems.com/API-R1604/CollectiveAPI.asmx?WSDL';
+    const WSDL_COLLECTIVE_API = 'https://collectiveapi.bartec-systems.com/API-R1616/collectiveapi.asmx?WSDL';
 
     /**
      * @inheritdoc

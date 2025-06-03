@@ -1,14 +1,14 @@
 <?php
 
-namespace LBHounslow\Bartec\Service;
+namespace Renfrewshire\Bartec\Service;
 
-use LBHounslow\Bartec\Adapter\ApiVersionAdapterInterface;
-use LBHounslow\Bartec\Adapter\Version15Adapter;
-use LBHounslow\Bartec\Adapter\Version16Adapter;
-use LBHounslow\Bartec\Client\Client as BartecClient;
-use LBHounslow\Bartec\Enum\BartecServiceEnum;
-use LBHounslow\Bartec\Exception\SoapException;
-use LBHounslow\Bartec\Response\Response;
+use Renfrewshire\Bartec\Adapter\ApiVersionAdapterInterface;
+use Renfrewshire\Bartec\Adapter\Version15Adapter;
+use Renfrewshire\Bartec\Adapter\Version16Adapter;
+use Renfrewshire\Bartec\Client\Client as BartecClient;
+use Renfrewshire\Bartec\Enum\BartecServiceEnum;
+use Renfrewshire\Bartec\Exception\SoapException;
+use Renfrewshire\Bartec\Response\Response;
 use Psr\Cache\CacheItemInterface;
 use Psr\Cache\CacheItemPoolInterface;
 use Psr\Cache\InvalidArgumentException;

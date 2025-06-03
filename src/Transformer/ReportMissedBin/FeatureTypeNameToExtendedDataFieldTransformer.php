@@ -1,10 +1,10 @@
 <?php
 
-namespace LBHounslow\Bartec\Transformer\ReportMissedBin;
+namespace Renfrewshire\Bartec\Transformer\ReportMissedBin;
 
-use LBHounslow\Bartec\Enum\BartecServiceEnum;
-use LBHounslow\Bartec\Exception\TransformationException;
-use LBHounslow\Bartec\Transformer\TransformerInterface;
+use Renfrewshire\Bartec\Enum\BartecServiceEnum;
+use Renfrewshire\Bartec\Exception\TransformationException;
+use Renfrewshire\Bartec\Transformer\TransformerInterface;
 
 class FeatureTypeNameToExtendedDataFieldTransformer implements TransformerInterface
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace LBHounslow\Bartec\Client;
+namespace Renfrewshire\Bartec\Client;
 
-use LBHounslow\Bartec\Response\SoapResponse;
+use Renfrewshire\Bartec\Response\SoapResponse;
 
 /**
  * SOAP Client

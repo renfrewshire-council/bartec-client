@@ -2,8 +2,8 @@
 
 namespace Tests\Unit\Transformer\ReportMissedBin;
 
-use LBHounslow\Bartec\Enum\BartecServiceEnum;
-use LBHounslow\Bartec\Transformer\ReportMissedBin\FeatureTypeNameToServiceTypeTransformer;
+use Renfrewshire\Bartec\Enum\BartecServiceEnum;
+use Renfrewshire\Bartec\Transformer\ReportMissedBin\FeatureTypeNameToServiceTypeTransformer;
 use Tests\Unit\BartecTestCase;
 
 class FeatureTypeNameToServiceTypeTransformerTest extends BartecTestCase

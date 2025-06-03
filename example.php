@@ -1,12 +1,12 @@
 <?php
 require_once 'vendor/autoload.php';
 
-use LBHounslow\Bartec\Adapter\Version16Adapter;
-use LBHounslow\Bartec\Client\Client as BartecClient;
-use LBHounslow\Bartec\Client\SoapClient;
-use LBHounslow\Bartec\Exception\SoapException;
-use LBHounslow\Bartec\Response\Response;
-use LBHounslow\Bartec\Service\BartecService;
+use Renfrewshire\Bartec\Adapter\Version16Adapter;
+use Renfrewshire\Bartec\Client\Client as BartecClient;
+use Renfrewshire\Bartec\Client\SoapClient;
+use Renfrewshire\Bartec\Exception\SoapException;
+use Renfrewshire\Bartec\Response\Response;
+use Renfrewshire\Bartec\Service\BartecService;
 
 // BARTEC CLIENT USAGE
 $bartecClient = new BartecClient(

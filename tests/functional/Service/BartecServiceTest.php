@@ -2,14 +2,14 @@
 
 namespace Tests\Functional\Service;
 
-use LBHounslow\Bartec\Adapter\Version16Adapter;
-use LBHounslow\Bartec\Client\Client as BartecClient;
-use LBHounslow\Bartec\Client\SoapClient;
-use LBHounslow\Bartec\Enum\BartecServiceEnum;
-use LBHounslow\Bartec\Enum\DateEnum;
-use LBHounslow\Bartec\Exception\SoapException;
-use LBHounslow\Bartec\Response\Response;
-use LBHounslow\Bartec\Service\BartecService;
+use Renfrewshire\Bartec\Adapter\Version16Adapter;
+use Renfrewshire\Bartec\Client\Client as BartecClient;
+use Renfrewshire\Bartec\Client\SoapClient;
+use Renfrewshire\Bartec\Enum\BartecServiceEnum;
+use Renfrewshire\Bartec\Enum\DateEnum;
+use Renfrewshire\Bartec\Exception\SoapException;
+use Renfrewshire\Bartec\Response\Response;
+use Renfrewshire\Bartec\Service\BartecService;
 use Tests\Functional\BartecTestCase;
 
 class BartecServiceTest extends BartecTestCase
