@@ -11,7 +11,7 @@
   },
   "autoload": {
     "psr-4": {
-      "LBHounslow\\Bartec\\": "src/"
+      "Renfrewshire\\Bartec\\": "src/"
     }
   },
   "autoload-dev": {
