@@ -60,4 +60,3 @@ $bartecService = new BartecService(
 $response = $bartecService->getServiceRequestClasses();
 
 $result = $response->getResult();
-echo 'Example Service Class Name: ' . $result->ServiceClass[0]->Name . PHP_EOL;
