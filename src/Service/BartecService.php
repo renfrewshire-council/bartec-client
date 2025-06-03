@@ -3,7 +3,6 @@
 namespace Renfrewshire\Bartec\Service;
 
 use Renfrewshire\Bartec\Adapter\ApiVersionAdapterInterface;
-use Renfrewshire\Bartec\Adapter\Version15Adapter;
 use Renfrewshire\Bartec\Adapter\Version16Adapter;
 use Renfrewshire\Bartec\Client\Client as BartecClient;
 use Renfrewshire\Bartec\Enum\BartecServiceEnum;
@@ -23,7 +22,6 @@ class BartecService
     const CACHE_NAMESPACE = 'renfrewshire/bartec-client';
 
     const VERSION_ADAPTERS = [
-        Version15Adapter::VERSION => Version15Adapter::class,
         Version16Adapter::VERSION => Version16Adapter::class
     ];
 
